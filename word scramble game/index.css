@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 350px;
+  }
+  
+  .start-screen, .game-screen, .end-screen {
+    transition: all 0.5s ease;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .level-buttons button, .buttons button {
+    margin: 10px;
+    padding: 12px 25px;
+    background-color: #4facfe;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .level-buttons button:hover, .buttons button:hover {
+    background: #00c6ff;
+  }
+  
+  .scrambled-word {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+    letter-spacing: 5px;
+    margin: 20px 0;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 12px;
+    border: 2px solid #007bff;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  .game-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #feedback {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  
